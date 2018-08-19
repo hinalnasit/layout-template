@@ -1,0 +1,498 @@
+body
+{
+	font-family:Palatino Linotype ;
+	margin: 0;
+}
+a
+{
+	text-decoration: none;
+}
+ul
+{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+h1, h2, h3, h4, h5 ,h6,  p
+{
+	margin: 5px;
+}
+.container
+{
+	width: 1140px;
+	margin-right: auto ;
+	margin-left: auto;
+}
+.p-60
+{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+/*---------------------header----------------------*/
+.main_header
+{
+	background-color: black;
+	color: white;
+	padding:15px; 
+}
+.left_div
+{
+	margin-left: 15px;
+}
+.right_div
+{
+	display: inline-block;
+	margin-left: 919px;
+}
+.user_icon
+{
+	color: white;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.fb_icon
+{
+	color: white;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.twit_icon
+{
+	font-size: 20px;
+	margin-left: 20px;
+	color: white;
+}
+.gogle_icon
+{
+	font-size: 20px;
+	margin-left: 20px;
+	color: white;
+}
+.home_icon
+{
+	font-size: 20px;
+	margin-left: 20px;
+	color: white;
+}
+.user_icon:hover
+{
+	color: #bab8ef;
+}
+.fb_icon:hover
+{
+	color: #bab8ef;
+}
+.twit_icon:hover
+{
+	color: #bab8ef;
+}
+.home_icon:hover
+{
+	color: #bab8ef;
+}
+.gogle_icon:hover
+{
+	color: #bab8ef;
+}
+/*---------------------------menu--------------------------------*/
+.nav_color
+{
+	background-color: black;
+	display: inline-block;
+    width: 100%;
+}
+.mainmenu li 
+{
+	display: inline-block;
+	position: relative;
+	
+}
+.mainmenu li a
+{
+	color: white;
+	display: block;
+	//word-spacing: 20px;
+	font-weight: bold;
+	padding: 10px 40px;
+	text-align: center;
+
+}
+.mainmenu li:hover 
+{
+	background-color: rgb(83, 84, 168);
+}
+
+.mainmenu li:hover .mainmenu
+{
+	display: block;
+
+}
+.submenu
+{
+	position: absolute;
+	top:100%;
+	left:0px;
+	background-color: black;
+	display: none;
+	width:124px;
+	text-align: center;
+	
+}
+.submenu li
+{
+	display: block;
+	//padding:0 10px;
+}
+.petamenu
+{
+	position: absolute;
+	top: 0;
+	left: 100%;
+	display: none;
+	width:124px;
+	background-color: black;
+}
+.mainmenu li:hover .submenu
+{
+	display: block;
+}
+.submenu li:hover .petamenu
+{
+	display: block;
+}
+/*----------------------silder-------------------*/
+.public_img img
+{
+	width: 55%;
+	height: 450px;
+	float: left;
+}
+.public_main
+{
+	margin-left: 730px;
+	height: 350px;
+	width: 400px;
+	background-color:white;
+	color: white;
+	padding-top: 57px;
+
+}
+.line
+{
+	padding-bottom: 10px;
+	border-top:solid black;
+}
+.market_txt
+{
+	color: black;
+	padding-left: 40px;
+	padding-top: 10px;
+	font-weight:normal;
+	font-size: 30px;
+}
+.public_txt
+{
+	padding-left: 40px;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+}
+.txt
+{
+	padding-left: 40px;
+	padding-top: 10px;
+	font-weight: normal;
+	font-size: 15px;
+	color: grey;
+}
+.site 
+{
+	margin-left: 40px;
+	height: 30px;
+	width: 130px;
+	padding: 10px;
+	background-color: rgb(83, 84, 168);
+	border-radius: 10px 10px 10px 10px;
+	transition: .2s;
+}
+.site:hover 
+{
+	transform: scaleX(1);
+	background-color:rgb(46, 41, 173);
+	
+}
+/*-------------------services------------------- */
+.service
+{
+	width: 100%;
+	display: inline-block;
+	padding-top: 0px;
+	//margin-bottom: 10px;
+	background-color: #e8f4f7;
+}
+.first_service
+{
+	margin-top: 10px;
+	float: left;
+	margin-left: 10px;
+	padding:40px;
+	width: 283px;
+}
+.ser_heading
+{
+	text-shadow: 2px 2px 5px;
+	padding-bottom: 1px;
+}
+.user
+{
+	margin-top: 10px;
+}
+.use_icon
+{
+	
+	color:rgb(71, 118, 183);
+	padding-left: 101px;
+	font-size: 28px;
+}
+.service_txt
+{
+	color:grey;
+
+}
+.second_service
+{
+	margin-top: 10px;
+	float: left;
+	margin-left: 10px;
+	padding:40px;
+	width: 283px;
+}
+.message
+{
+	margin-top: 10px;
+}
+.msg_icon
+{
+	
+	color:rgb(71, 118, 183);
+	padding-left: 105px;
+	font-size: 28px;
+}
+.third_service
+{
+	margin-top: 10px;
+	float: left;
+	margin-left: 10px;
+	padding:40px;
+	width: 283px;
+}
+.check
+{
+	margin-top: 10px;
+}
+.chek_icon
+{
+	color:rgb(71, 118, 183);
+	padding-left: 105px;
+	font-size: 28px;
+}
+.use_icon:hover
+{
+	color:rgb(29, 97, 186);
+}
+.msg_icon:hover
+{
+	color:rgb(29, 97, 186);
+}
+.chek_icon:hover
+{
+	color:rgb(29, 97, 186);
+}
+.advantage
+{
+	width: 100%;
+	color: black;
+	text-align: center;
+}
+.count
+{
+	background-color: white;
+	height: 50%;
+	width: 100%;
+}
+.award
+{
+	background-color: white;
+	width: 25%;
+	font-size: 20px;
+	float: left;	
+}
+.project
+{		
+	background-color: white;
+	width: 25%;
+	font-size: 20px;
+	float: 	left;	
+}
+.expiriance
+{		
+	background-color: white;
+	width: 25%;
+	font-size: 20px;
+	float: 	left;	
+}
+.emp
+{		
+	background-color: white;
+	width: 25%;
+	font-size: 20px;
+	float: 	left;	
+}
+.useri
+{
+	font-size: 	20px;
+	text-align: center;	
+}
+.award
+{
+	font-size: 	20px;
+	text-align: center;	
+}
+.project
+{
+	font-size: 	20px;
+	text-align: center;	
+}
+.expiriance
+{
+	font-size: 	20px;
+	text-align: center;	
+}
+.compign
+{
+	width: 100%;
+	//height: 300px;
+	background-color: gray;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	padding: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+.btn
+{
+	font-size: 50px;
+	width: 100px;
+}
+.service_list
+{
+	width: 100%;
+	background-color: blue;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+	font-size: 40px;
+	float: left;
+}
+
+
+
+
+
+.service
+{
+	width: 100%;
+	display: inline-block;
+	padding-top: 0px;
+	//margin-bottom: 10px;
+	background-color: #e8f4f7;
+}
+.advertise
+{
+	text-align: center;
+	margin-top: 10px;
+	float: left;
+	margin-left: 10px;
+	padding:40px;
+	width: 283px;
+}
+.ser_heading
+{
+	text-shadow: 2px 2px 5px;
+	padding-bottom: 1px;
+	text-align: center;
+}
+.user
+{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10px;
+}
+.use_icon
+{
+	
+	color:rgb(71, 118, 183);
+	//padding-left: 101px;
+	font-size: 28px;
+}
+.service_txt
+{
+	color:grey;
+
+}
+.second_service
+{
+	margin-top: 10px;
+	float: left;
+	margin-left: 10px;
+	padding:40px;
+	width: 283px;
+}
+.message
+{
+	font-size: 30px;
+	text-align: center;
+	//margin-top: 10px;
+}
+.msg_icon
+{
+	
+	color:rgb(71, 118, 183);
+	padding-left: 105px;
+	font-size: 28px;
+}
+.third_service
+{
+	margin-top: 10px;
+	float: left;
+	margin-left: 10px;
+	padding:40px;
+	width: 283px;
+}
+.check
+{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+.chek_icon
+{
+	color:rgb(71, 118, 183);
+	padding-left: 105px;
+	font-size: 28px;
+}
+.use_icon:hover
+{
+	color:rgb(29, 97, 186);
+}
+.msg_icon:hover
+{
+	color:rgb(29, 97, 186);
+}
+.chek_icon:hover
+{
+	color:rgb(29, 97, 186);
+}
+
